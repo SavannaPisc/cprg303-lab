@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 export default function ToDoForm({ addTask }) {
-cosnt [taskText, setTaskText] = React.useState('');
+const [taskText, setTaskText] = React.useState('');
 
 
     return (
